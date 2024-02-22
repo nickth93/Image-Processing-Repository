@@ -4,7 +4,8 @@
   "description": "training",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc index.ts",
+    "run": "nodemon index.ts"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
+    "nodemon": "^3.0.3",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
